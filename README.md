@@ -2,6 +2,21 @@
 
 Digital healthcare facilities can allow dissemination of specialised knowledge among the medical commmunity through advanced network ,tech enabled peer-to-peer reviews, emergency medical consulations during epidemics and crises, instant bookings of ambulances and labs ,Many others can be achieved with this.
 
+### Tech Stack
+```
+Front End----> Angularjs
+
+Middleware---> Amazon API Gateway
+
+Backend---> Lambda functions based on Nodejs and DynamoDB as NoSQL DataBase
+```
+### Third party API's
+
+```
+1. BMI and Symptom Checker API from mashap.(https://market.mashape.com/navii/bmi-calculator)
+2. Twilio API to send sms after booking.
+```
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development. 
@@ -9,7 +24,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 ```
-Xammp webserver----> https://www.apachefriends.org/index.html
+XAMMP webserver----> https://www.apachefriends.org/index.html
 ```
 ### Setup
 
